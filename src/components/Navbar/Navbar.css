@@ -1,0 +1,30 @@
+.nav {
+   width: 100vw;
+   height: 40px;
+   padding: 40px;
+   color: var(--white);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.nav--ul {
+   width: 20vw;
+   font-size: 1.5em;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-transform: capitalize;
+}
+
+.nav--h1 {
+   font-size: 2.5em;
+}
+
+.nav--ul li {
+   list-style: none;
+}
+
+.nav--ul li a {
+   color: var(--white);
+}
