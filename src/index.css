@@ -1,10 +1,9 @@
 :root {
-   --dark: #121212;
+   --dark: #252423;
    --white: #ffff
 }
 
 * {
-   box-sizing: border-box;
 }
 
 a {
@@ -12,9 +11,12 @@ a {
 }
 
 body {
+   box-sizing: border-box;
    margin: 0;
    font-family: 'Lato', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    background-color: var(--dark);
+   color: var(--white);
+   padding: 0 10vw;
 }
