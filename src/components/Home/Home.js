@@ -1,7 +1,7 @@
 import "./Home.css";
 export default function Home() {
   return (
-    <div className="home">
+    <section className="home container section">
       <div className="home--img-div home--col-1">
         <div className="home--img-eye-shade">
           <div className="home--img-eye">
@@ -17,6 +17,6 @@ export default function Home() {
         <h2 className="home--h2">Villains</h2>
         <h2 className="home--h3">are not born they made by society</h2>
       </div>
-    </div>
+    </section>
   );
 }

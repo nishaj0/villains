@@ -1,7 +1,4 @@
 .home{
-   width: 100%;
-   height: 100%;
-   padding: 8vh 0;
    display: flex;
    justify-content: space-between;
 
@@ -49,8 +46,7 @@
 }
 .home--h2{
    font-size: 4em;
-   line-height: 2px;
 }
 .home--h3{
-   line-height: 2px;
+   
 }
