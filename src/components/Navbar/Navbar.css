@@ -1,0 +1,60 @@
+.villains__navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2rem 6rem;
+}
+
+.villains__navbar-links{
+   flex: 1;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.villains__navbar-links_logo{
+   margin-right: 2rem;
+}
+
+.villains__navbar-links_logo h2{
+   font-size: 30px;
+   font-family: var(--font-family);
+   letter-spacing: 5px;
+}
+
+.villains__navbar-links_container{
+   display: flex;
+   flex-direction: row;
+}
+
+.villains__navbar-sign{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.villains__navbar-links_container p,
+.villains__navbar-sign p {
+   color: black;
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: capitalize;
+
+   margin: 0 1rem;
+   cursor: pointer;
+}
+
+.villains__navbar-sign button{
+   padding: 0.5rem 1rem;
+   color: white;
+   background-color: gray;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   border-radius: 5px;
+}
