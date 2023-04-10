@@ -15,7 +15,7 @@ const Home = () => {
       </div>
       <div className="villains__home-content">
         <h1>Villains</h1>
-        <p>are not born, but rather created by the societal factors that influence their behavior. By addressing these factors and providing support to those at risk, we can prevent the emergence of villains and work towards a more just and compassionate society.</p>
+        <p>Villains are not born, but rather created by the societal factors that influence their behavior. By addressing these factors and providing support to those at risk, we can prevent the emergence of villains and work towards a more just and compassionate society.</p>
       </div>
     </div>
   )
