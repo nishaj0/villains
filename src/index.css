@@ -2,4 +2,8 @@
 
 :root{
    --font-family: 'Roboto', sans-serif;
+   --font-color:white;
+   --background-color:#151515;
+   --background-gray:#343434;
+   --dark-red:#932E31;
 }

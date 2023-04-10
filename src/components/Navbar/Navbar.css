@@ -19,6 +19,8 @@
 .villains__navbar-links_logo h2{
    font-size: 30px;
    font-family: var(--font-family);
+   color: var(--font-color);
+   font-weight: 100;
    letter-spacing: 5px;
 }
 
@@ -35,9 +37,9 @@
 
 .villains__navbar-links_container p,
 .villains__navbar-sign p {
-   color: black;
+   color: var(--font-color);
    font-family: var(--font-family);
-   font-weight: 500;
+   font-weight: 400;
    font-size: 18px;
    line-height: 25px;
    text-transform: capitalize;
@@ -48,9 +50,9 @@
 
 .villains__navbar-sign button{
    padding: 0.5rem 1rem;
-   color: white;
-   background-color: gray;
-   font-weight: 500;
+   color: var(--font-color);
+   background-color: var(--dark-red);
+   font-weight:400;
    font-size: 18px;
    line-height: 25px;
    border: none;
