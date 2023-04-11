@@ -3,8 +3,8 @@ import React from 'react'
 import './Home.css'
 
 import kanekiSit from "../../assets/kaneki_sit_hd.png"
-import kanekiBg from "../../assets/kanaki-bg-hd.jpg"
-import kanekiMask from "../../assets/kaneki-mask-no-bg.webp"
+// import kanekiBg from "../../assets/kanaki-bg-hd.jpg"
+// import kanekiMask from "../../assets/kaneki-mask-no-bg.webp"
 
 const Home = () => {
   return (
