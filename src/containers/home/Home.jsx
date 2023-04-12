@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Home.css'
+import './home.css'
 
 import kanekiSit from "../../assets/kaneki_sit_hd.png"
 // import kanekiBg from "../../assets/kanaki-bg-hd.jpg"
