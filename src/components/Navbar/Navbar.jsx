@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
-const Navbar = () => {
+ const Navbar = () => {
    const [toggleMenu, setToggleMenu] = React.useState(false);
 
    return (
