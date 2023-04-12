@@ -14,8 +14,10 @@ const Home = () => {
         <div className="gradient__bg villains__home-image_gradient"></div>
       </div>
       <div className="villains__home-content">
-        <h1>Villains</h1>
-        <p>Villains are not born, but rather created by the societal factors that influence their behavior. By addressing these factors and providing support to those at risk, we can prevent the emergence of villains and work towards a more just and compassionate society.</p>
+        <h1>Villains are not born,</h1>
+        <p> they are made by the world around them.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ut vitae esse harum in iste et obcaecati fugit fuga alias.</p>
+        <button>explore now</button>
       </div>
     </div>
   )
