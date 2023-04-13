@@ -14,6 +14,7 @@
    justify-content: center;
    position: relative;
    margin-right: 5rem;
+   padding: 1rem 0;
 }
 
 .villains__home-image img {
@@ -83,6 +84,11 @@
       padding: 2rem 0;
    }
 
+   
+   .villains__home-image img {
+      width: 60%;
+   }
+
    .villains__home-content {
       margin: 3rem 0;
 
@@ -102,13 +108,6 @@
       line-height: 24px;
    }
 
-   .villains__home-image {
-      padding: 1rem 0;
-   }
-
-   .villains__home-image img {
-      width: 60%;
-   }
 }
 
 @media screen and (max-width: 550px) {

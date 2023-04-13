@@ -2,7 +2,7 @@ import React from 'react'
 
 import './home.css'
 
-import kanekiSit from "../../assets/kaneki_sit_hd.png"
+import kanekiSit from "../../assets/kaneki-sitting.png"
 // import kanekiBg from "../../assets/kanaki-bg-hd.jpg"
 // import kanekiMask from "../../assets/kaneki-mask-no-bg.webp"
 
