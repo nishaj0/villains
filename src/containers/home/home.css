@@ -17,7 +17,7 @@
 }
 
 .villains__home-image img {
-   width: 50%;
+   width: 45%;
    height: 100%;
 }
 
@@ -58,7 +58,7 @@
    letter-spacing: .5px;
 }
 
-.villains__home-content button{
+.villains__home-content button {
    padding: 0.5rem 1rem;
    margin-top: 1rem;
    color: var(--font-color);
@@ -77,44 +77,48 @@
    .villains__home {
       flex-direction: column;
    }
-   .villains__home-image img {
-      /* width: 220px; */
-   }
+
    .villains__home-image {
       margin-right: 0;
       padding: 2rem 0;
    }
-   .villains__home-content{
+
+   .villains__home-content {
       margin: 3rem 0;
 
    }
-   .villains__home-image_gradient{
-   }
+
 }
 
 @media screen and (max-width: 700px) {
-   .villains__home-content h1{
+   .villains__home-content h1 {
       font-size: 45px;
       line-height: 60px;
    }
+
    .villains__home-content p,
-   .villains__home-content button{
+   .villains__home-content button {
       font-size: 18px;
       line-height: 24px;
    }
 
-   .villains__home-image{
+   .villains__home-image {
       padding: 1rem 0;
+   }
+
+   .villains__home-image img {
+      width: 60%;
    }
 }
 
 @media screen and (max-width: 550px) {
-   .villains__home-content h1{
+   .villains__home-content h1 {
       font-size: 36px;
       line-height: 48px;
    }
+
    .villains__home-content p,
-   .villains__home-content button{
+   .villains__home-content button {
       font-size: 14px;
       line-height: 24px;
    }
