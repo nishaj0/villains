@@ -5,6 +5,7 @@
 
 .villains__home {
    display: flex;
+   padding: 4rem 6rem;
 }
 
 .villains__home-image {
@@ -81,22 +82,31 @@
 
    .villains__home-image {
       margin-right: 0;
-      padding: 2rem 0;
+      padding: 1rem 1rem 0;
    }
 
-   
-   .villains__home-image img {
-      width: 60%;
-   }
 
    .villains__home-content {
-      margin: 3rem 0;
+      margin: 5rem 0;
 
    }
 
 }
 
 @media screen and (max-width: 700px) {
+   .villains__home {
+      padding: 2rem 4rem 4rem;
+   }
+
+   .villains__home-content {
+      margin: 4rem 0;
+
+   }
+
+   .villains__home-image img {
+      width: 60%;
+   }
+
    .villains__home-content h1 {
       font-size: 45px;
       line-height: 60px;
@@ -111,6 +121,15 @@
 }
 
 @media screen and (max-width: 550px) {
+   .villains__home {
+      padding: 1rem 4rem 4rem;
+   }
+
+   .villains__home-content {
+      margin: 3rem 0;
+
+   }
+
    .villains__home-content h1 {
       font-size: 36px;
       line-height: 48px;

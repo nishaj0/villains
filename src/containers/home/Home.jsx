@@ -3,12 +3,10 @@ import React from 'react'
 import './home.css'
 
 import kanekiSit from "../../assets/kaneki-sitting.png"
-// import kanekiBg from "../../assets/kanaki-bg-hd.jpg"
-// import kanekiMask from "../../assets/kaneki-mask-no-bg.webp"
 
 const Home = () => {
   return (
-    <div className='villains__home section__padding'>
+    <div className='villains__home '>
       <div className="villains__home-image">
         <img src={kanekiSit} alt="kaneki" />
         <div className="gradient__bg villains__home-image_gradient"></div>
